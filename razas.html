@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito Ejemplo</title>
+  <link rel="stylesheet" href="src/output.css">
+
+</head>
+<body >
+  <header class="header flex items-center justify-between  bg-white shadow-md relative z-10">
+    <a href="index.html"><img src="img/logo.webp" alt="logo" class="w-28"></a>
+  
+    <div class="flex gap-4 font-semibold  lg:text-4xl ">
+      <!-- Tipo de gatos -->
+      <div class="relative hover:text-red-600">
+        <a href="razas.html" class=" p-3 lg:text-xl xl:text-2xl sm:text-xs">Tipo de gatos</a> 
+      </div>
+  
+      <div class="relative hover:text-red-600">
+        <a href="adoptar.html" class=" p-3 lg:text-xl xl:text-2xl sm:text-xs">Como adoptar gatos</a> 
+      </div>
+    
+     
+      <div class="relative hover:text-red-600">
+        <a href="https://www.gatsdegracia.cat/" class="lg:text-xl xl:text-2xl p-3 text-xs">Noticia</a> 
+     
+      </div>
+  
+  </div>
+  </header>
+
+<!-- Sección con imagen de fondo desenfocada y texto centrado -->
+<div class="relative text-white text-center h-60">
+  <!-- Imagen desenfocada como fondo -->
+  <div class="absolute inset-0">
+    <img src="img/GATO.webp" alt="Fondo gato" class="w-full h-full object-cover blur-sm brightness-50">
+  </div>
+
+  <!-- Contenido sobre la imagen -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4">
+    <h3 class="text-3xl md:text-6xl sm:text-7xl font-extrabold">Tipos de Razas</h3>
+    <p class="text-md md:text-2xl font-mono my-4">Elija el que le parece más interesante</p>
+  </div>
+</div>
+
+<!-- Sección debajo -->
+<div class="bg-white text-black px-6 py-10">
+  <h3 class="text-3xl font-bold mb-4">Razas de gatos</h3>
+  <p class="text-lg leading-relaxed">
+    Razas de gatos: Abisinio, Angora, Azul Ruso… Las razas de gatos que hemos seleccionado son las que nos parecen más interesantes y están más aceptadas. Actualizamos continuamente la información para ofrecer una más amplia visión de las distintas razas que podemos encontrar.
+  </p>
+</div>
+
+<div class="grid gap-8 justify-center p-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+  <!-- TARJETA 1 -->
+  <div class="max-w-sm bg-white rounded-lg shadow-lg overflow-hidden text-center">
+    <img src="gatos/cat1.webp" alt="Gato blanco" class="w-full h-60 object-cover">
+    <h1 class="text-2xl font-bold my-4">INFICA</h1>
+    <table class="w-full text-sm text-gray-700">
+      <tbody>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Tamaño</td>
+          <td class="py-2 px-4 text-right">Mediano</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Peso</td>
+          <td class="py-2 px-4 text-right">5-6 kg</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Vida</td>
+          <td class="py-2 px-4 text-right">10-15 a</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Carácter</td>
+          <td class="py-2 px-4 text-right">Activo</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://www.elgatofeliz.es/razas/" class="block bg-gray-400 text-white hover:bg-gray-600 font-semibold py-3 mt-4 transition-all">
+      NUEVA INFORMACIÓN
+    </a>
+  </div>
+
+  <!-- TARJETA 2 -->
+  <div class="max-w-sm bg-white rounded-lg shadow-lg overflow-hidden text-center">
+    <img src="gatos/cat2.webp" alt="Gato gris" class="w-full h-60 object-cover">
+    <h1 class="text-2xl font-bold my-4">ABISINIO</h1>
+    <table class="w-full text-sm text-gray-700">
+      <tbody>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Tamaño</td>
+          <td class="py-2 px-4 text-right">Grande</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Peso</td>
+          <td class="py-2 px-4 text-right">6-8 kg</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Vida</td>
+          <td class="py-2 px-4 text-right">12-14 a</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Carácter</td>
+          <td class="py-2 px-4 text-right">Curioso</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://www.elgatofeliz.es/razas/" class="block bg-gray-400 text-white hover:bg-gray-600 font-semibold py-3 mt-4 transition-all">
+      NUEVA INFORMACIÓN
+    </a>
+  </div>
+
+  <!-- TARJETA 3 -->
+  <div class="max-w-sm bg-white rounded-lg shadow-lg overflow-hidden text-center">
+    <img src="gatos/cat3.webp" alt="Gato negro" class="w-full h-60 object-cover">
+    <h1 class="text-2xl font-bold my-4">MAINE COON</h1>
+    <table class="w-full text-sm text-gray-700">
+      <tbody>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Tamaño</td>
+          <td class="py-2 px-4 text-right">Extra grande</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Peso</td>
+          <td class="py-2 px-4 text-right">7-11 kg</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Vida</td>
+          <td class="py-2 px-4 text-right">12-15 a</td>
+        </tr>
+        <tr class="border-t">
+          <td class="py-2 px-4 text-left">Carácter</td>
+          <td class="py-2 px-4 text-right">Tranquilo</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://www.elgatofeliz.es/razas/" class="block bg-gray-400 text-white hover:bg-gray-600 font-semibold py-3 mt-4 transition-all">
+      NUEVA INFORMACIÓN
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+ 
+<!-- Footer -->
+<footer class="text-white relative w-full p-8 bg-black">
+  <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-8">
+    <!-- Contacto -->
+    <div>
+      <h4 class="text-white font-bold mb-3 text-lg">Contacto</h4>
+      <p class="text-sm mb-2">Email: 
+contacto@mtgsite.com
+</p>
+      <p class="text-sm mb-4">© 2025 MTGSite. Web oficial de Card&Ranks.</p>
+      <ul class="space-y-1 text-xs">
+        <li><a href="/aviso-legal" class="hover:underline text-lg">Aviso Legal</a></li>
+        <li><a href="/privacidad" class="hover:underline text-lg">Política de Privacidad</a></li>
+        <li><a href="/cookies" class="hover:underline text-lg">Política de Cookies</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="flex flex-col items-start">
+      <h4 class="text-white font-bold mb-3 text-lg">Redes Sociales</h4>
+      <div class="flex space-x-4">
+        <a href="
+        https://www.instagram.com/gatosgram/?hl=es
+" target="_blank" rel="noopener">
+          <img src="img/instagram.webp" alt="Instagram"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+        <a href="
+        https://www.facebook.com/groups/960361387502882/?locale=es_ES
+" target="_blank" rel="noopener">
+          <img src="img/FB-f-Logo__blue_512.webp" alt="Twitter"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+        <a href="
+        https://www.youtube.com/watch?v=4r4IJu7UHtg
+" target="_blank" rel="noopener">
+          <img src="img/Youtube_logo.webp" alt="TikTok"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+      </div>
+    </div>
+  </div>
+ <!-- Botón flotante para volver arriba -->
+ <div class="scrollUp absolute bottom-4 right-4 z-50">
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    class="bg-gradient-to-br from-[green] to-[black] text-white px-4 py-3 rounded-full shadow-xl hover:brightness-110 transition-all">
+    ▲ REGRESAR AL INICIO
+  </button>
+</div>
+</footer> 
+    
+
+</body>
+</html>

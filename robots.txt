@@ -1,0 +1,11 @@
+
+User-agent: *
+Allow:/
+Disallow:
+Disallow: /contraseña/ 
+Disallow: servicios.html
+Sitemao: https://catadria.netlify.app/sitemap.xml
+
+
+
+

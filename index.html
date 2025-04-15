@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos Felices</title>
+    <meta name="description" content="Es una web creada para ayudarte a saber todo lo que necesitas sobre nuestros amigos los gatos: razas, pelaje, cuidados y alimentación para que puedas cuidar de la mejor manera de tu mascota.">
+    <meta name="keywords" content="gatos felices, gatos en barcelona, como adoptar gatos, pasos para adoptar gatos.">
+    <link rel="stylesheet" href="src/output.css">
+    <script src="js/funciones.js" defer></script>
+    <link href="src/output.css" rel="stylesheet"> <!-- Tu Tailwind CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+</head>
+<body >
+    
+
+<!-- Barra de navegación -->
+<header class="header flex items-center justify-between  bg-white shadow-md relative z-10">
+  <a href="index.html"><img src="img/logo.webp" alt="logo" class="w-28"></a>
+
+  <div class="flex gap-4 font-semibold lg:text-4xl ">
+    <!-- Tipo de gatos -->
+    <div class="relative hover:text-red-600">
+      <a href="razas.html" class=" p-3 lg:text-xl xl:text-2xl sm:text-xs">Tipo de gatos</a> 
+    </div>
+
+    <div class="relative hover:text-red-600">
+      <a href="adoptar.html" class=" p-3 lg:text-xl xl:text-2xl sm:text-xs">Como adoptar gatos</a> 
+    </div>
+ 
+    <div class="relative hover:text-red-600">
+      <a href="https://www.gatsdegracia.cat/" class="lg:text-xl xl:text-2xl p-3 text-xs">Noticia</a> 
+   
+    </div>
+
+</div>
+</header>
+
+    <div class="relative h-[60vh] md:h-[80vh] bg-cover bg-center" style="background-image: url('img/GATO.webp');">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Capa oscura para que el texto se lea mejor -->
+      <div class="relative z-10 p-5 md:p-10 text-white max-w-4xl mx-auto flex flex-col justify-center h-full">
+          <h1 class="text-3xl md:text-6xl sm:text-7xl font-extrabold">Gatos Felices</h1>
+          <p class="text-md md:text-2xl font-mono my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam optio dolore rerum praesentium... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde saepe, aliquam dicta aperiam earum vitae sequi iure inventore et ipsa, illum ad consequatur amet eligendi laudantium consectetur veritatis nobis. Amet.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+              <a href="adoptar.html" class="bg-white hover:bg-blue-600 hover:text-white text-black font-serif px-6 py-2">
+                  NUEVA INFORMACIÓN
+              </a>
+            
+              <a href="razas.html" class="border border-white bg-transparent hover:bg-blue-600 text-white font-serif px-6 py-2">
+                  RAZAS
+              </a>
+          </div>
+      </div>
+    </div>
+  
+    
+    
+
+  <section data-aos="fade-up" 
+    data-aos-anchor-placement="top-bottom" 
+    class="grid gap-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 p-10">
+
+    <div class="sm:border-none sm:mb-12 grid justify-center sm:mt-10 text-center h-96">
+      <img src="img/circulo1.webp" alt="gato" class="w-52 sm:w-72 mx-auto">
+      <h1 class="text-3xl font-bold pb-4">Tu gato ideal</h1>
+      <p class="text-sm pb-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta</p>
+      <a href="razas.html" class="bg-green-400 p-5 hover:bg-blue-600 text-white">SABER MÁS</a>
+    </div>
+
+  <div class=" sm:border-none sm:mb-12  grid justify-center sm:mt-10 text-center h-96">
+    <img src="img/circulo2.webp" alt="gato" class="w-52 sm:w-72 mx-auto">
+    <h1 class="text-3xl font-bold pb-4">Servicios</h1>
+    <p class="text-sm pb-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta</p>
+    <a href="razas.html" class="bg-green-800 p-5 hover:bg-blue-600 text-white">SABER MÁS</a>
+  </div>
+
+  <div class=" sm:border-none sm:mb-12  grid justify-center sm:mt-10 text-center h-96">
+    <img src="img/circulo3.webp" alt="gato" class="w-52 sm:w-72 mx-auto">
+    <h1 class="text-3xl font-bold pb-4">Cuidado</h1>
+    <p class="text-sm pb-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta</p>
+    <a href="razas.html" class="bg-green-400 p-5 hover:bg-blue-600 text-white">SABER MÁS</a>
+  </div>
+
+  <div class=" sm:border-none sm:mb-12  grid justify-center sm:mt-10 text-center h-96">
+    <img src="img/circulo4.webp" alt="gato" class="w-52 sm:w-72 mx-auto">
+    <h1 class="text-3xl font-bold pb-4">Alimentación</h1>
+    <p class="text-sm pb-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta</p>
+    <a href="razas.html" class="bg-green-800 p-5 hover:bg-blue-600 text-white">SABER MÁS</a>
+  </div>
+
+</section>
+
+
+    <div class="p-20 grid text-center">
+      <h1 class="text-6xl pb-8 font-bold">Todo para tu gato</h1>
+      <p class="text-3xl font-mono pb-8">En nuestra web El gato feliz queremos ayudarte a escoger los mejores accesorios para tu gato. Camas, rascadores, juguetes… Las mejores comparativas, artículos y tiendas donde poder adquirir todo lo necesario para tu mascota sin vaciar tu bolsillo.</p>
+      <div>
+      <a href="adoptar.html" class="bg-green-800 p-5 w-60 text-white hover:bg-blue-600">APRENDE CÓMO</a></div>
+    </div>
+    <div class="grid justify-center">
+      <img src="img/adriana.webp" data-aos="zoom-in" alt="gato vision" class="w-72" >
+    </div>
+
+    <div class="grid justify-center text-center p-8 text-white ">
+      <h3 class="text-7xl p-12 pb-8 font-bold bg-green-800">El proceso de adopción</h3>
+      <p class="text-4xl font-sans p-5  pl- bg-green-800">Si eres de los que se plantea comprar un gato, te traemos razones para que te decidas por la adopción. Te explicamos todo el proceso en 4 pasos.</p>
+      <div class="bg-green-800 p-8">
+      <a href="adoptar.html" class="border bg-transparent w-60 tracking-[0.2rem] hover:bg-blue-600  p-5">SABER MÁS</a>
+      </div>
+      <img src="img/Requisitos.webp" alt="Requisitos" class="pt-9" >
+    </div>
+
+    <div class="text-center mb-9">
+      <h1 class="text-7xl p-12 pb-8 font-bold ">¿Sabes cuantos gatos se adoptan el dia de hoy?</h1>
+      <button id="mostrarAdopciones" class="bg-green-800 w-60 tracking-[0.2rem]  p-5 text-white px-4 py-2  shadow-md hover:bg-blue-600">
+          ¿CUÁNTOS GATOS SE ADOPTAN HOY?
+      </button>
+      <p id="resultado" class="mt-4 text-lg text-gray-700"></p>
+  </div>
+
+
+<!-- Footer -->
+<footer class="text-white relative w-full p-8 bg-black">
+  <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-8">
+    <!-- Contacto -->
+    <div>
+      <h4 class="text-white font-bold mb-3 text-lg">Contacto</h4>
+      <p class="text-sm mb-2">Email: 
+contacto@mtgsite.com
+</p>
+      <p class="text-sm mb-4">© 2025 MTGSite. Web oficial de Card&Ranks.</p>
+      <ul class="space-y-1 text-xs">
+        <li><a href="/aviso-legal" class="hover:underline text-lg">Aviso Legal</a></li>
+        <li><a href="/privacidad" class="hover:underline text-lg">Política de Privacidad</a></li>
+        <li><a href="/cookies" class="hover:underline text-lg">Política de Cookies</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="flex flex-col items-start">
+      <h4 class="text-white font-bold mb-3 text-lg">Redes Sociales</h4>
+      <div class="flex space-x-4">
+        <a href="
+        https://www.instagram.com/gatosgram/?hl=es
+" target="_blank" rel="noopener">
+          <img src="img/instagram.webp" alt="Instagram"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+        <a href="
+        https://www.facebook.com/groups/960361387502882/?locale=es_ES
+" target="_blank" rel="noopener">
+          <img src="img/FB-f-Logo__blue_512.webp" alt="Twitter"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+        <a href="
+        https://www.youtube.com/watch?v=4r4IJu7UHtg
+" target="_blank" rel="noopener">
+          <img src="img/Youtube_logo.webp" alt="TikTok"
+            class="w-9 h-9 hover😒cale-110 transition" />
+        </a>
+      </div>
+    </div>
+  </div>
+ <!-- Botón flotante para volver arriba -->
+ <div class="scrollUp absolute bottom-4 right-4 z-50">
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    class="bg-gradient-to-br from-[green] to-[black] text-white px-4 py-3 rounded-full shadow-xl hover:brightness-110 transition-all">
+    ▲ REGRESAR AL INICIO
+  </button>
+</div>
+</footer> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/estilos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
